@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.main{
+  background-color: #ffffff;
+  width: 400px;
+  height:360px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+}
+.nuqta{
+  display: flex;
+  justify-content: center;
+}
+.tochka{
+  margin-top: 20px;
+  width: 5px;
+  height: 5px;
+  background-color:#cacbcb;
+  margin-left: 10px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.line{
+  margin: 0;
+}
+.main-text{
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+ text-transform: uppercase;
+}
+.main-visa{
+  display: flex;
+  height: 70px;
+}
+.main-visa:hover{
+  background-color: #eeeeee;
+}
+.main-visa-link{
+  font-weight: bold;
+  text-decoration: none;
+  color: #8a8a8a;
+}
+.tuchka{
+  background-color:#626060 ;
+}
+.visa-img{
+  transform: translateY(18px);
+}
+.main-span{
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.check-img{
+  margin-left: 140px
+}
+.color-span{
+  color: #000000;
+  
+}
+.step{
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.link-step{
+  text-decoration: none;
+  margin-left: 90px;
+}
+.step-color{
+  background-color: #598bdd;
+  display: flex;
+  height: 70px;
+  text-align: center;
+}
+.img-arrow{
+ transform: translateY(5px);
+}
+.step-color:hover{
+  background: rgb(108, 157, 206);
+}
+.step-color:active{
+  height:  75px;
+}
